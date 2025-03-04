@@ -46,10 +46,10 @@ Here are the recent additions and updates to the Gemini API and the Cookbook:
 * **Gemini 2.0 models:** Explore the capabilities of the latest Gemini 2.0 models! See the [Get Started Guide](./quickstarts/Get_started.ipynb).
 * **Imagen**: Get started with our image generation model with this brand new [Imagen guide](./quickstarts/Get_started_imagen.ipynb)!
 * **Recently Added Guides:**.
-  * [Thinking model](./quickstarts/Get_started_thinking.ipynb): Discover the thinking model capabilities.
-  * [Invoice and Form Data Extraction](./examples/Pdf_structured_outputs_on_invoices_and_forms.ipynb): Analyze PDFs with structured outputs.
+  * [Browser as a tool](./examples/Browser_as_a_tool.ipynb): Use a web browser for live and internal (intranet) web interactions
   * [Code execution](./quickstarts/Code_Execution.ipynb): Generating and running Python code to solve complex tasks and even ouput graphs
-
+  * [Thinking model](./quickstarts/Get_started_thinking.ipynb): Discover the thinking model capabilities.
+  
 <br><br>
 
 ## 1. Quick Starts
@@ -70,6 +70,7 @@ We recommend starting with the following:
 
 Then, explore the other quickstarts tutorials to learn about individual features:
 *  [Get started with Live API](./quickstarts/Get_started_LiveAPI.ipynb): Get started with the live API with this comprehensive overview of its capabilities
+*  [Get started with Imagen](./quickstarts/Get_started_imagen.ipynb): Get started with our image generation model 
 *  [Grounding](./quickstarts/Search_Grounding.ipynb): use Google Search for grounded responses
 *  [Code execution](./quickstarts/Code_Execution.ipynb): Generating and running Python code to solve complex tasks and even ouput graphs
 *  And [many more](https://github.com/google-gemini/cookbook/tree/main/quickstarts/)
@@ -78,8 +79,9 @@ Then, explore the other quickstarts tutorials to learn about individual features
 ## 2. Examples (Practical Use Cases)
 
 These examples demonstrate how to combine multiple Gemini API features or 3rd-party tools to build more complex applications.
-*  [Plotting and mapping Live](./examples/LiveAPI_plotting_and_mapping.ipynb): Mix *Live API* and *Code execution* to solve complex tasks live.
-*  [Search grounding for research report](./examples/Search_grounding_for_research_report.ipynb): Use *Grounding* to improve the quality of your research report
+*  [Illustrate a book](./examples/Book_illustration.ipynb): Use Gemini and Imagen to create illustration for an open-source book
+*  [Animated Story Generation](./examples/Animated_Story_Video_Generation_gemini.ipynb): Create animated videos by combining Gemini's story generation, Imagen, and audio synthesis
+*  [Plotting and mapping Live](./examples/LiveAPI_plotting_and_mapping.ipynb): Mix *Live API* and *Code execution* to solve complex tasks live
 *  [3D Spatial understanding](./examples/Spatial_understanding_3d.ipynb): Use Gemini *3D spatial* abilities to understand 3D scenes
 *  [Gradio and live API](./examples/gradio_audio.py): Use gradio to deploy your own instance of the *Live API*
 *  And [many many more](https://github.com/google-gemini/cookbook/tree/main/examples/)
@@ -97,7 +99,7 @@ These fully functional, end-to-end applications showcase the power of Gemini in 
 
 ## Official SDKs
 
-The Gemini API is a REST API. You can call it directly using tools like `curl` (see [REST examples](https://github.com/google-gemini/cookbook/tree/main/quickstarts/rest/)), or use one of our official SDKs:
+The Gemini API is a REST API. You can call it directly using tools like `curl` (see [REST examples](https://github.com/google-gemini/cookbook/tree/main/quickstarts/rest/) or the great [Postman workspace](https://www.postman.com/ai-on-postman/google-gemini-apis/overview)), or use one of our official SDKs:
 * [Python](https://github.com/googleapis/python-genai)
 * [Go](https://github.com/google/generative-ai-go)
 * [Node.js](https://github.com/google/generative-ai-js)
@@ -119,4 +121,4 @@ For enterprise developers, the Gemini API is also available on Google Cloud Vert
 
 Contributions are welcome! See [CONTRIBUTING.md](CONTRIBUTING.md) for details.
 
-Thank you for developing with the Gemini API! We’re excited to see what you create.
+Thank you for developing with the Gemini API! We're excited to see what you create.
